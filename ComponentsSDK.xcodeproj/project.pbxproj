@@ -12,6 +12,7 @@
 		013AD8F322D9E21A000DFAED /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 013AD8F122D9E21A000DFAED /* TestClass.m */; };
 		013AD8F622D9E27C000DFAED /* Teacher.h in Headers */ = {isa = PBXBuildFile; fileRef = 013AD8F422D9E27C000DFAED /* Teacher.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		013AD8F722D9E27C000DFAED /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 013AD8F522D9E27C000DFAED /* Teacher.m */; };
+		013AD8FA22D9E6D5000DFAED /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013AD8F922D9E6D4000DFAED /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		013AD8F122D9E21A000DFAED /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 		013AD8F422D9E27C000DFAED /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
 		013AD8F522D9E27C000DFAED /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		013AD8F922D9E6D4000DFAED /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013AD8FA22D9E6D5000DFAED /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				013AD8E722D9E1BD000DFAED /* ComponentsSDK */,
 				013AD8E622D9E1BD000DFAED /* Products */,
+				013AD8F822D9E6D4000DFAED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				013AD8F522D9E27C000DFAED /* Teacher.m */,
 			);
 			path = ComponentsSDK;
+			sourceTree = "<group>";
+		};
+		013AD8F822D9E6D4000DFAED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				013AD8F922D9E6D4000DFAED /* Accelerate.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
