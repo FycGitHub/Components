@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		013AD8EA22D9E1BD000DFAED /* ComponentsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 013AD8E822D9E1BD000DFAED /* ComponentsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		013AD8F222D9E21A000DFAED /* TestClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 013AD8F022D9E21A000DFAED /* TestClass.h */; };
+		013AD8F222D9E21A000DFAED /* TestClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 013AD8F022D9E21A000DFAED /* TestClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		013AD8F322D9E21A000DFAED /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 013AD8F122D9E21A000DFAED /* TestClass.m */; };
-		013AD8F622D9E27C000DFAED /* Teacher.h in Headers */ = {isa = PBXBuildFile; fileRef = 013AD8F422D9E27C000DFAED /* Teacher.h */; };
+		013AD8F622D9E27C000DFAED /* Teacher.h in Headers */ = {isa = PBXBuildFile; fileRef = 013AD8F422D9E27C000DFAED /* Teacher.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		013AD8F722D9E27C000DFAED /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 013AD8F522D9E27C000DFAED /* Teacher.m */; };
 /* End PBXBuildFile section */
 
@@ -71,9 +71,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013AD8F222D9E21A000DFAED /* TestClass.h in Headers */,
 				013AD8F622D9E27C000DFAED /* Teacher.h in Headers */,
 				013AD8EA22D9E1BD000DFAED /* ComponentsSDK.h in Headers */,
-				013AD8F222D9E21A000DFAED /* TestClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
