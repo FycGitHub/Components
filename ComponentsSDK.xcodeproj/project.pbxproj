@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		013AD8EA22D9E1BD000DFAED /* ComponentsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 013AD8E822D9E1BD000DFAED /* ComponentsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		013AD8F222D9E21A000DFAED /* TestClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 013AD8F022D9E21A000DFAED /* TestClass.h */; };
+		013AD8F322D9E21A000DFAED /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 013AD8F122D9E21A000DFAED /* TestClass.m */; };
+		013AD8F622D9E27C000DFAED /* Teacher.h in Headers */ = {isa = PBXBuildFile; fileRef = 013AD8F422D9E27C000DFAED /* Teacher.h */; };
+		013AD8F722D9E27C000DFAED /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 013AD8F522D9E27C000DFAED /* Teacher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		013AD8E522D9E1BD000DFAED /* ComponentsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComponentsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		013AD8E822D9E1BD000DFAED /* ComponentsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComponentsSDK.h; sourceTree = "<group>"; };
 		013AD8E922D9E1BD000DFAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013AD8F022D9E21A000DFAED /* TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		013AD8F122D9E21A000DFAED /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		013AD8F422D9E27C000DFAED /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		013AD8F522D9E27C000DFAED /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +56,10 @@
 			children = (
 				013AD8E822D9E1BD000DFAED /* ComponentsSDK.h */,
 				013AD8E922D9E1BD000DFAED /* Info.plist */,
+				013AD8F022D9E21A000DFAED /* TestClass.h */,
+				013AD8F122D9E21A000DFAED /* TestClass.m */,
+				013AD8F422D9E27C000DFAED /* Teacher.h */,
+				013AD8F522D9E27C000DFAED /* Teacher.m */,
 			);
 			path = ComponentsSDK;
 			sourceTree = "<group>";
@@ -59,7 +71,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013AD8F622D9E27C000DFAED /* Teacher.h in Headers */,
 				013AD8EA22D9E1BD000DFAED /* ComponentsSDK.h in Headers */,
+				013AD8F222D9E21A000DFAED /* TestClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013AD8F722D9E27C000DFAED /* Teacher.m in Sources */,
+				013AD8F322D9E21A000DFAED /* TestClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +282,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ComponentsSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,6 +307,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ComponentsSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
